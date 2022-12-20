@@ -5,7 +5,6 @@ public class SprinklerSystem {
   private WaterSource source = new WaterSource();
   private int i;
   private float f;
-  public String toString() {
-    return "213";
+  public String toString() {return "213";
   }
 }
