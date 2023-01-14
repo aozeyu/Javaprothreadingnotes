@@ -39,6 +39,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.lanau.framework.modules.backend.aspect</groupId>
+            <artifactId>lanau-modules-backend-aspect</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
     <build>

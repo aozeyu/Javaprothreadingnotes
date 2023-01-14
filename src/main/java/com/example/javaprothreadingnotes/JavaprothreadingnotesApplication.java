@@ -5,10 +5,12 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 @SpringBootApplication
 @Slf4j
+@EnableAspectJAutoProxy
 public class JavaprothreadingnotesApplication implements CommandLineRunner {
   private final JdbcTemplate fooTemplete;
   private final JdbcTemplate barTemplate;
