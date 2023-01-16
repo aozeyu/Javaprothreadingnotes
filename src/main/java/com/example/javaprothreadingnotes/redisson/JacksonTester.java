@@ -12,6 +12,8 @@ public class JacksonTester {
       //将对象转成字符串
       String jsonString = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(student);
       System.out.println(jsonString);
+      int i = (int) 5.6;
+      System.out.println(i);
     } catch (IOException e) {
       e.printStackTrace();
     }
