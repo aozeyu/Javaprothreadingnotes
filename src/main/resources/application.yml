@@ -1,5 +1,12 @@
 spring:
   # ???????
+  elasticsearch:
+    uris: http://127.0.0.1:9200 # elasticsearch 连接地址
+    #username: elastic # 用户名
+    #password: 123456 # 密码
+    connection-timeout: 10s # 连接超时时间（默认1s）
+    socket-timeout: 30s # 数据读取超时时间（默认30s）
+
   datasource:
     # ???????
     type:
@@ -14,3 +21,9 @@ spring:
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+logging:
+  file:
+    name: ./log/log.log
+  level:
+    root: info
+    org.springframework.data.elasticsearch.client.WIRE: trace
