@@ -1,6 +1,9 @@
 package com.example.javaprothreadingnotes.mybatisplus;
 
 public class ClassCreateDemo {
+    private String oak;
+    private String sycamore;
+    private String pine;
     public static void main(String[] args) throws ClassNotFoundException{
         Person person = new Student();
         System.out.println(person.name);
