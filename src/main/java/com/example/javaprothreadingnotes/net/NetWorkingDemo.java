@@ -14,6 +14,7 @@ public class NetWorkingDemo {
         System.out.println("Host Address " + inetAddress.getHostAddress());
         System.out.println("isAnyLocalAddress: " + inetAddress.isAnyLocalAddress());
         System.out.println("isLinkLocalAddress: " + inetAddress.isLinkLocalAddress());
+        System.out.println("hashCode: " + inetAddress.hashCode());
 
     }
 }
