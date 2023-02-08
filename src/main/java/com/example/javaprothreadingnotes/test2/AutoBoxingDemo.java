@@ -10,4 +10,8 @@ public class AutoBoxingDemo {
     //开箱
     System.out.println(i1);
   }
+
+  public static String  bugfix() {
+     return "bugfix from main";
+  }
 }
