@@ -12,6 +12,7 @@ public class AutoBoxingDemo {
   }
 
   public static String  bugfix() {
+    //这个是从master分支合并过来的
      return "bugfix from main";
   }
 }
