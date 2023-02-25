@@ -69,6 +69,11 @@
             <artifactId>redisson</artifactId>
             <version>3.11.4</version>
         </dependency>
+        <dependency>
+            <groupId>io.github.ci-cmg</groupId>
+            <artifactId>io-stream-utils</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
     <build>
