@@ -22,6 +22,6 @@ public class Bucky {
   }
 
   private static void printMe(List<String> list1) {
-
+    System.out.println("spring IOC");
   }
 }
