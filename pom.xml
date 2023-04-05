@@ -16,6 +16,15 @@
     <properties>
         <java.version>1.8</java.version>
     </properties>
+    <!--指定仓库地址-->
+    <distributionManagement>
+        <repository>
+            <!--此名称要和.m2/settings.xml中设置的ID一致-->
+            <id>niezhiliang</id>
+            <url>http://127.0.0.1:8081/repository/yaozeyu/</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
