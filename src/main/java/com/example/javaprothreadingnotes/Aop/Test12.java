@@ -9,6 +9,8 @@ public class Test12 {
             for (String elem : args) {
                 listInt.add(Integer.parseInt(elem));
             }
+            String name2 = "      Rekja       ";
+            System.out.println(name2.trim());
             System.out.println(listInt);
         }catch (Exception e) {
             System.out.println("Wrong arguments");
